@@ -6,7 +6,8 @@ module.exports = {
   rules: {
     semi: ['error', 'never'],
     'max-len': 'off',
-    'func-names': 'off'
+    'func-names': 'off',
+    'no-param-reassign': ['error', { props: false }]
   },
   settings: {
     'import/resolver': {
