@@ -11,7 +11,11 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      'babel-module': {}
+      'babel-module': {
+        'alias': {
+          '@': './src'
+        }
+      }
     }
   }
 }
