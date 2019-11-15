@@ -1,14 +1,16 @@
 {
   "name": "@hugw/eslint-config-node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Custom ESLint config rules for Node apps.",
   "author": "Hugo W. <contact@hugw.io>",
   "main": "./index.js",
-  "peerDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-import-resolver-babel-module": "^5.1.0",
-    "eslint-plugin-import": "^2.17.0"
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
   }
 }
